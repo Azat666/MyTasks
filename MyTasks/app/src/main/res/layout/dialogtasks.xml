@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_for_login"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_margin"
+        android:textColorHint="@color/blue">
+
+        <EditText
+            android:id="@+id/input_mision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_tasks_dialog"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/edit_dialog"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/add_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="@string/tima_dialog"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_dialog_size" />
+
+            <ImageButton
+                android:id="@+id/time_piker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/dialog_margin"
+                android:background="@null"
+                android:src="@drawable/ic_watch" />
+
+
+        </RelativeLayout>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_margin" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/add_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/date_dialog"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_dialog_size" />
+
+        <ImageButton
+            android:id="@+id/date_piker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dialog_margin"
+            android:background="@null"
+            android:src="@drawable/ic_date" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/add_tasks_image"
+            android:layout_width="@dimen/image_item"
+            android:layout_height="@dimen/dialog_image1"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:id="@+id/spinner_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/dialog_margin"
+            android:background="@color/blue"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/spinnerItems">
+
+        </Spinner>
+
+
+        <ImageButton
+            android:id="@+id/tasks_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/image_item"
+            android:background="@null"
+            android:src="@drawable/ic_fingerprint" />
+
+    </RelativeLayout>
+
+</LinearLayout>

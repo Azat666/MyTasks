@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_two"
+    tools:context=".fragments.LoginFragment">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_name"
+        android:layout_width="@dimen/height_input_text"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_input_text"
+        android:textColorHint="@color/blue">
+
+        <EditText
+            android:id="@+id/login_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:hint="@string/login"
+            android:textColor="@color/my_blue"
+            android:textSize="@dimen/size_edit__dialog" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_email"
+        android:layout_width="@dimen/height_input_text"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_input_text"
+        android:textColorHint="@color/blue">
+
+
+        <EditText
+            android:id="@+id/login_email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:hint="@string/email"
+            android:textColor="@color/my_blue"
+            android:textSize="@dimen/size_edit__dialog" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/login_password"
+        android:layout_width="@dimen/height_input_text"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_input_text"
+        android:textColorHint="@color/blue"
+        app:passwordToggleDrawable="@drawable/ic_remove_red"
+        app:passwordToggleEnabled="true">
+
+
+        <EditText
+            android:id="@+id/login_password1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:hint="@string/password"
+            android:textColor="@color/my_blue"
+            android:textSize="@dimen/size_edit__dialog" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/login_button_top"
+            android:background="@null"
+            android:fontFamily="@string/font"
+            android:text="@string/log_in_button"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/big_button"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/icon_my"
+            android:layout_height="@dimen/icon_my"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/icon_margin"
+            android:layout_marginStart="@dimen/icon_start"
+            android:src="@drawable/login" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_button"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:fontFamily="@string/font"
+            android:text="@string/register_button"
+            android:textColor="@color/my_blue"
+            android:textSize="@dimen/mini_button"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/icon_my"
+            android:layout_height="@dimen/icon_my"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/icon_margin"
+            android:layout_marginStart="@dimen/icon_start"
+            android:src="@drawable/login1" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

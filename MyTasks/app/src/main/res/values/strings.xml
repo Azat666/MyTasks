@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyTasks</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tasks_list">TasksListActivity</string>
+    <string name="tost_registor">Sorry, your password was incorrect. Please double-check your password.</string>
+    <string name="tost_login">Sorry, your password was incorrect. Please double-check your password.</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in_button">Log in</string>
+    <string name="register_button1">Register</string>
+    <string name="input_tasks_dialog">input tasks</string>
+    <string name="tima_dialog">Tima</string>
+    <string name="date_dialog">Date</string>
+    <string name="name_register">Name</string>
+    <string name="surname_register">SurName</string>
+    <string name="phone_number_resgister">Phone Number</string>
+    <string name="email_regiter">Email</string>
+    <string name="password_register">Password</string>
+    <string name="register_button">Register</string>
+    <string name="log_in_buuton">Log in</string>
+    <string name="font">cursive</string>
+
+    <string-array name="spinnerItems">
+        <item>Happy Birthday</item>
+        <item>Training</item>
+        <item> Works</item>
+    </string-array>
+</resources>

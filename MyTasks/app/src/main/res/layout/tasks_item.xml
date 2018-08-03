@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_5"
+    android:background="#caf4c2">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/tasks_image"
+        android:layout_width="@dimen/item_image"
+        android:layout_height="@dimen/item_image" />
+
+
+    <TextView
+        android:id="@+id/tasks_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tasks_time"
+        android:layout_marginStart="@dimen/start_item"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/item_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tasks_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/margin_item"
+        android:textColor="@color/my_blue"
+        android:textSize="@dimen/item_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tasks_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tasks_time"
+        android:layout_marginTop="@dimen/margin_item"
+        android:textColor="@color/my_blue"
+        android:textSize="@dimen/item_text_size"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

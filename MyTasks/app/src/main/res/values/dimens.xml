@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tab_height">0dp</dimen>
+    <dimen name="progres_size">50dp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="height_input_text">360dp</dimen>
+    <dimen name="margin_input_text">50dp</dimen>
+    <dimen name="size_edit__dialog">20sp</dimen>
+    <dimen name="login_button_top">400dp</dimen>
+    <dimen name="big_button">25sp</dimen>
+    <dimen name="icon_my">100dp</dimen>
+    <dimen name="icon_margin">25dp</dimen>
+    <dimen name="icon_start">20dp</dimen>
+    <dimen name="mini_button">15sp</dimen>
+    <dimen name="dialog_margin">20dp</dimen>
+    <dimen name="edit_dialog">30sp</dimen>
+    <dimen name="text_dialog_size">50sp</dimen>
+    <dimen name="image_item">160dp</dimen>
+    <dimen name="dialog_image1">120dp</dimen>
+    <dimen name="item_image">100dp</dimen>
+    <dimen name="item_margin">30dp</dimen>
+    <dimen name="item_text_size">20sp</dimen>
+    <dimen name="item_tame_margin">30dp</dimen>
+    <dimen name="margin_register">15dp</dimen>
+    <dimen name="register_text_size">20sp</dimen>
+    <dimen name="margin_icon">10dp</dimen>
+    <dimen name="margin_item">50dp</dimen>
+    <dimen name="start_item">126dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin55">55dp</dimen>
+</resources>
